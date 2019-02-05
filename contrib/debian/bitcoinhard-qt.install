@@ -1,0 +1,6 @@
+usr/local/bin/bitcoinhard-qt usr/bin
+share/pixmaps/bitcoinhard32.xpm usr/share/pixmaps
+share/pixmaps/bitcoinhard16.xpm usr/share/pixmaps
+share/pixmaps/bitcoinhard128.png usr/share/pixmaps
+debian/bitcoinhard-qt.desktop usr/share/applications
+debian/bitcoinhard-qt.protocol usr/share/kde4/services/

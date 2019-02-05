@@ -1,0 +1,33 @@
+# /etc/conf.d/bitcoinhardd: config file for /etc/init.d/bitcoinhardd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bitcoinhardcore/bitcoinhard.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/bitcoinhardd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bitcoinhardd.pid"
+
+# Where to write bitcoinhardd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bitcoinhardd"
+
+# User and group to own bitcoinhardd process
+#BITCOIND_USER="bitcoinhardcore"
+#BITCOIND_GROUP="bitcoinhardcore"
+
+# Path to bitcoinhardd executable
+#BITCOIND_BIN="/usr/bin/bitcoinhardd"
+
+# Nice value to run bitcoinhardd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

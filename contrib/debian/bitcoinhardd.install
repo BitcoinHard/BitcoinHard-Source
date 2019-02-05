@@ -1,0 +1,2 @@
+usr/local/bin/bitcoinhardd usr/bin
+usr/local/bin/bitcoinhard-cli usr/bin

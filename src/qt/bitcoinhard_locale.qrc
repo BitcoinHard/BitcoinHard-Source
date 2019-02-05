@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bitcoinhard_bg.qm</file>
+        <file alias="de">locale/bitcoinhard_de.qm</file>
+        <file alias="en">locale/bitcoinhard_en.qm</file>
+        <file alias="es">locale/bitcoinhard_es.qm</file>
+        <file alias="fi">locale/bitcoinhard_fi.qm</file>
+        <file alias="fr">locale/bitcoinhard_fr.qm</file>
+        <file alias="it">locale/bitcoinhard_it.qm</file>
+        <file alias="ja">locale/bitcoinhard_ja.qm</file>
+        <file alias="nl">locale/bitcoinhard_nl.qm</file>
+        <file alias="pl">locale/bitcoinhard_pl.qm</file>
+        <file alias="pt">locale/bitcoinhard_pt.qm</file>
+        <file alias="ru">locale/bitcoinhard_ru.qm</file>
+        <file alias="sk">locale/bitcoinhard_sk.qm</file>
+        <file alias="sv">locale/bitcoinhard_sv.qm</file>
+        <file alias="vi">locale/bitcoinhard_vi.qm</file>
+        <file alias="zh_CN">locale/bitcoinhard_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bitcoinhard_zh_TW.qm</file>
+    </qresource>
+</RCC>
